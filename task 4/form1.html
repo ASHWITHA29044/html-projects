@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>form1</title>
+</head>
+    <h1 align="center"><u>Registration Form</u></h1>
+<form action="server.url" method="post">
+    <table>
+        <tr>
+            <td>
+                <label for="name">First Name:</label>
+            </td>
+            <td>
+                <input type="text" id="name" name="name" required>
+            </td>
+        </tr>
+        <br>
+        <tr>
+            <td>
+                <label for='name'>Last Name</label>
+            </td>
+            <td>
+                <input type="text" id="name" name="last_name" required>
+            </td>
+        </tr>
+        <br>
+        <tr>
+            <td>
+                <label for="name">Nickname</label>
+            </td>
+            <td>
+                <input type="text" id="nickname" name="nickname" required>
+            </td>
+        </tr>
+        <br>
+        <tr>
+            <td>
+                <label for="email">e-mail:</label>
+            </td>
+            <td>
+                <input type="email" id="email" name="email" required>
+            </td>
+        </tr>
+        <br>
+        <tr></tr>
+            <td>
+                <label for="password">Password:</label>
+            </td>
+            <td>
+                <input type="password" id="password" name="password" required>
+            </td>
+        </tr>
+
+        <br>
+        <tr>
+            <td>
+                <label for="dateofbirth">Date of Birth</label>
+            </td>
+            <td>
+                <input type="date" id="dateofbirth" name="dateofbirth" style="width: 90%" required>
+            </td>
+        </tr>
+        <br>
+        <tr>
+            <td>
+                <label for="Gender">Gender:</label>
+            </td>
+            <td>
+                <input type="radio" value="Male">Male
+                <input type="radio" value="Female">Female
+                <input type="radio" value="Other">Other
+            
+            </td>
+        </tr>
+        <br>
+
+        <tr>
+            <td>
+                <label for="Number">Mobile</label>
+            </td>
+            <td>
+                <input type="tel" id="Number" name="Number" required>
+            </td>
+        </tr>
+        <br> 
+        <tr>
+            <td rowspan="2">
+                <label for="Address">Address</label>
+            </td>
+            <td>
+                <textarea id="Address" name="Address" rows="5" cols="20" required>
+                    Enter your address here...
+                </textarea>
+            </td>
+        </tr>
+        <br>
+    </table>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>

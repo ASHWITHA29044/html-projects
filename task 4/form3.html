@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 3</title>
+</head>
+<body>
+    <form name="form3" action="server.url" method="post">
+        <table bgcolor="lightgreen" cellpadding="2" cellspacing="3">
+            <caption align="left"><h2>Registration form</h2></caption>
+            <tr>
+                <td>
+                    <label for="first_name" id="1">First Name</label>
+                    <br>
+                    <input type="text" id="first_name" name="first_name" required>
+                </td>
+                <td>
+                    <label for="last_name" id="2">Last Name</label> 
+                    <br>
+                    <input type="text" id="last_name" name="last_name" required>   
+                </td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td>
+                    <label for="Birthday" id="3">Birthday</label>
+                    <br>
+                    <input type="date" id="birthday" name="birthday" required>
+                </td>
+                <td>
+                    <label for="Gender" id="4">Gender</label>
+                    <br>
+                    <input type="radio" id="male" name="gender" value="male" required> Male
+                    <input type="radio" id="female" name="gender" value="female" required> Female
+                </td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td>
+                    <label for="email" id="5">Email</label>
+                    <br>
+                    <input type="email" id="email" name="email" required>
+                </td>
+                <td>
+                    <label for="Phone Number" id="6">Phone Number</label>
+                    <br>
+                    <input type="tel" id="phone" name="phone" required>
+                </td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td colspan="2">
+                    <label for="subject" id="7">Subject</label>
+                    <br>
+                    <select name="subject" id="subject" required style="width:100%" required>
+                        <option value="choose option">Choose Option</option>
+                        <option value="Maths">Maths</option>
+                        <option value="Science">Science</option>
+                        <option value="Social">Social</option>
+                        <option value="English">English</option>
+                        <option value="Hindi">Hindi</option>    
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
